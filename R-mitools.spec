@@ -1,14 +1,16 @@
 %global packname  mitools
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          2.1
+Version:          2.2
 Release:          1
 Summary:          Tools for multiple imputation of missing data
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mitools_2.2.tar.gz
 Requires:         R-RODBC R-DBI 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-RODBC R-DBI 
@@ -51,4 +53,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776374
 - Import R-mitools
 - Import R-mitools
+
 
