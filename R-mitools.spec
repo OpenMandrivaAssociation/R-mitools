@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.2
-Release:          2
+Release:          3
 Summary:          Tools for multiple imputation of missing data
 Group:            Sciences/Mathematics
 License:          GPL-2
